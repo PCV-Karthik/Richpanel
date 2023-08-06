@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container{
+  min-height: 100vh;
+  width: 100%;
+  background: "#1e4d8f";
+  background-color: #1e4d8f;
+}
+
+.box{
+  background-color: white;
+  padding: 35px 50px 35px 50px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+
+/* Font */
+
+.large{
+  font-size: large;
+}
+
+.larger{
+  font-size: larger;
+}
+.x-large{
+  font-size: x-large;
+}
+
+.fill{
+  opacity: 1;
+}
+
+.opac{
+  opacity: 0.5;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.medium{
+  font-weight: 500;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+/* Font END */
+
+.flex{
+  display: flex;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.flexCenter{
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input Box */
+.input{
+  margin-bottom: 15px;
+}
+
+.input label{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input input{
+  height: 50px;
+  padding-left: 10px;
+  width: 300px;
+  border: 2px solid rgba(195, 195, 195, 0.84);
+  border-radius: 5px;
+}
+
+/* Buttons */
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.blueButton{
+  background-color: #1e4d8f;
+  color: white;
+}
+
+.whiteButton{
+  background-color: white;
+  color:#1e4d8f;
+  border: 1px solid #1e4d8f;
+  width: 20%;
+  height: 40px;
+  margin: 15px 0 15px 0;
+}
+
+.signupPage .submit,.loginPage .submit,.selectionPage .submit,.paymentPage .submit{
+  height: 50px;
+  margin: 15px 0 15px 0;
+}
+
+.selectionPage .submit{
+    width: 50%;
+}
+
+.paymentPage .submit{
+  width: 50%;
+}
+
+/* End */
+
+/* signup Page */
+.signupPage .heading,.loginPage .heading,.selectionPage .heading,.planPage .heading{
+  margin: 20px 0 20px 0;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Tabs */
+
+.tabs{
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabList{
+  background-color:#1e4d8f;
+  justify-content: space-around;
+  width: fit-content;
+  border-radius: 500px;
+  padding: 10px 15px 10px 15px;
+}
+
+.tab{
+  font-size: 16.5px;
+  padding: 5px 10px 5px 10px;
+}
+
+/* End */
+
+.selected{
+  background-color: white;
+  color: #1e4d8f;
+  border-radius: 500px;
+}
+
+.underline{
+  border-bottom: 1px solid black;
+}
+
+.tableHeading{
+  height: 100px;
+  width: 130px;
+}
+
+.tableHeadingData{
+  height: 90px;
+  width: 90px;
+}
+
+.down-arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #1e4d8f;
+  }
+
+.tableData{
+  padding: 20px 0 20px 0;
+}
+
+
+.orderSummary,.cardDetails{
+  padding: 30px;
+}
+
+.cardDetails{
+  background-color: white;
+  border-radius: 5px 0 0 5px;
+  width: 500px;
+}
+
+.cardDetails .cardInput{
+  margin: 30px 0 30px 0;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid black;
+}
+
+.orderSummary{
+  background-color: #f4f5f7;
+  border-radius:  0 5px 5px 0;
+  width: 350px;
+}
+
+.orderSummary .heading{
+  margin: 10px 0 10px 0;
+}
+.orderSummary .flex{
+  justify-content: space-between;
+}
+
+.paymentPage .input input{
+  border: none;
+}
+
+.paymentPage .input{
+  border: 2px solid rgba(195, 195, 195, 0.84);
+  border-radius: 5px;
+  gap: 2px;
+  margin-top: 30px;
+}
+
+.paymentPage .opac{
+  padding-top: 10px;
+}
+
+.paymentPage .input #cardNumber{
+  width: 380px;
+}
+
+.paymentPage .input #month,.paymentPage .input #cvc{
+  width: 60px;
+}
+
+.planPage .header{
+  justify-content: space-between;
+}
+
+.planPage .cost{
+  margin: 5px 0 5px 0;
+}
+
+.planPage .cancel{
+  color: #1e4d8f;
+  font-size: large;
+}
+
+.message{
+  background-color: #f6f6f7;
+  padding: 5px;
+}
+
+.active,.cancelled{
+  margin:  0 10px 0 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: small;
+}
+
+.cancelled{
+  background-color: #fbeff0;
+  color: #e3716c;
+}
+
+.active{
+  background-color: #c1dcfc;
+  color: #376bb2;
+}
